@@ -86,13 +86,17 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* color: rgb(var(--foreground-rgb)); */
+  background-image: url("/smaczkuj-bg-1920x1080.jpg");
+  min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {

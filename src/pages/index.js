@@ -16,26 +16,28 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
+          {/* <p>
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
+          </p> */}
+          <div style={{width: "100%", display:"flex"}}>
+        
+                        <Image
+                src="/smaczkuj.svg"
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
-                width={100}
-                height={24}
+                style={{justifyContent:"start"}}
+                width={300}
+                height={250}
                 priority
               />
-            </a>
+              <ul style={{color:"#ffbd59", listStyle:"none", fontSize:"24px", display: "flex", justifyContent:"center", alignItems:"center", marginLeft:"auto"}}>
+                <li style={{marginRight: "15px"}}>O nas</li>
+                <li style={{marginRight: "15px"}}>Blog</li>
+                <li style={{marginRight: "15px"}}>Kontakt</li>
+              </ul>
+    
+            
           </div>
         </div>
 
@@ -59,7 +61,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -116,7 +118,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   )
